@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to developer portfolio project, crafted with TypeScript and styled-components. It has reusable beautiful card and button component. It is highly responsive and tested across various platforms to ensure a seamless experience.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **About:** Learn more about developer, background, and passion for technology.
+- **Education:** Discover academic achievements and qualifications.
+- **Experiences:** Review professional experience and the skills You have developed.
+- **Projects:** Browse through the projects you have worked on, showcasing technical expertise.
+- **Contact:** Get in touch with you for collaborations or inquiries.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- TypeScript, HTML, CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To install and run portfolio project locally, follow these steps:
 
-### `npm run build`
+Clone the repository
+```bash
+git clone https://github.com/akash-2020/portfolio.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Node Module Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Navigate to the portfolio directory
+   
+```bash
+cd portfolio
+```
+2. Install client dependencies
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Run 
+In the same directory i.e. portfolio
 
-### `npm run eject`
+Start the server
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## API Key, Updating Files, Adding Images
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- To have a working contact form, you need to have an api key from Web3Forms. https://web3forms.com/
+- update Contact.tsx to replace 'your-api-key-here' to the key that you created from Web3Forms
+- There are images used across all the pages, put related images into 'public' folder and give their paths in files as it is required.
+- I have put titles within tsx files for the reference
+- Use my live portfolio as the best reference at
+##### https://akash-2020.github.io/devportfolio/
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+#### Access the application through your web browser at http://localhost:3000.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Contributions
+Contributions are welcome! If you find any issues or have suggestions for improvement, please submit an issue or a pull request.
