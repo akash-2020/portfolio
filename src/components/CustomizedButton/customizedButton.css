@@ -1,0 +1,111 @@
+.custom-button {
+  font-size: 14px;
+  text-align: center;
+  transition: background-color 0.3s, opacity 0.3s;
+  border: none;
+  background-color: transparent;
+}
+
+.custom-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.custom-button:hover {
+  background-color: rgba(73, 73, 73, 0.1);
+}
+
+/* Primary variant */
+.custom-button.primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.custom-button.primary:hover {
+  background-color: #0056b3;
+}
+
+/* Secondary variant */
+.custom-button.secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.custom-button.secondary:hover {
+  background-color: #5a6268;
+}
+
+/* Danger variant */
+.custom-button.danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.custom-button.danger:hover {
+  background-color: #c82333;
+}
+
+/* Success variant */
+.custom-button.success {
+  background-color: #28a745;
+  color: white;
+}
+
+.custom-button.success:hover {
+  background-color: #218838;
+}
+
+/* Contained variant */
+.custom-button.contained {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.custom-button.contained:hover {
+  background-color: #0056b3;
+}
+
+/* Outlined variant */
+.custom-button.outlined {
+  background-color: transparent;
+  color: #007bff;
+  border: 2px solid #007bff;
+}
+
+.custom-button.outlined:hover {
+  background-color: rgba(0, 123, 255, 1);
+  color: white;
+}
+
+.loading-spinner {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+}
+
+.loading-spinner .dot {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: wheat;
+  border-radius: 50%;
+  animation: loading 1.2s linear infinite;
+  margin-top: -1px;
+}
+
+.loading-spinner .dot:nth-child(1) { top: 0; left: 50%; margin-left: -2px; animation-delay: 0s; }
+.loading-spinner .dot:nth-child(2) { top: 14%; left: 86%; margin-left: -2px; animation-delay: 0.1s; }
+.loading-spinner .dot:nth-child(3) { top: 50%; left: 100%; margin-left: -2px; animation-delay: 0.2s; }
+.loading-spinner .dot:nth-child(4) { top: 86%; left: 86%; margin-left: -2px; animation-delay: 0.3s; }
+.loading-spinner .dot:nth-child(5) { top: 100%; left: 50%; margin-left: -2px; animation-delay: 0.4s; }
+.loading-spinner .dot:nth-child(6) { top: 86%; left: 14%; margin-left: -2px; animation-delay: 0.5s; }
+.loading-spinner .dot:nth-child(7) { top: 50%; left: 0; margin-left: -2px; animation-delay: 0.6s; }
+.loading-spinner .dot:nth-child(8) { top: 14%; left: 14%; margin-left: -2px; animation-delay: 0.7s; }
+
+
+@keyframes loading {
+  0%, 100% { transform: scale(0); }
+  50% { transform: scale(1); }
+}

@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height: 100%
+}
+
+#root{
+  height: -webkit-fill-available
+}
+
+.typewriter {
+  font-family: monospace;
+  display: inline-block;
+  overflow: hidden;
+  border-right: 0.15em solid orange; /* The cursor */
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 50%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: orange; }
+}
